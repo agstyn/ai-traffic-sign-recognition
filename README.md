@@ -86,6 +86,36 @@ https://github.com/agstyn/ai-traffic-sign-recognition
 
 ## 📸 Screenshots
 
+### Homepage
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="900"/>
+</p>
+
+---
+
+### Interactive Prediction Dashboard
+
+<p align="center">
+  <img src="assets/screenshots/home2.png" width="900"/>
+</p>
+
+---
+
+### AI Prediction Output
+
+<p align="center">
+  <img src="assets/screenshots/prediction.png" width="450"/>
+</p>
+
+---
+
+### Grad-CAM Explainability
+
+<p align="center">
+  <img src="assets/screenshots/maps.png" width="450"/>
+</p>
+
 
 
 ## 👨‍💻 Author
