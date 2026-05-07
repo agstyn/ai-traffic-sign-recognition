@@ -9,26 +9,14 @@ from io import BytesIO
 @st.cache_data
 def load_class_images():
 
-    train_path = "data/GTSRB/Final_Training/Images"
-
-    folders = sorted(os.listdir(train_path))
-
     result = {}
 
-    for idx, folder in enumerate(folders):
+    for i in range(43):
 
-        fp = os.path.join(train_path, folder)
+        img_path = f"assets/class_images/{i}.ppm"
 
-        imgs = [
-            f for f in os.listdir(fp)
-            if f.endswith(".ppm")
-        ]
-
-        if imgs:
-            result[idx] = os.path.join(
-                fp,
-                imgs[len(imgs)//2]
-            )
+        if os.path.exists(img_path):
+            result[i] = img_path
 
     return result
 
