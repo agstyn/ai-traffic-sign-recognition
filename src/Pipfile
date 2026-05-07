@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "==1.35.0"
+tensorflow = "==2.16.1"
+numpy = "==1.26.4"
+opencv-python-headless = "==4.10.0.84"
+pillow = "==10.3.0"
+
+[requires]
+python_version = "3.11"
