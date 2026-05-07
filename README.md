@@ -74,6 +74,13 @@ ai-traffic-sign-recognition/
 │   ├── slideshow.py
 │   └── ui_components.py
 ```
+## Live Demo
+
+Hugging Face:
+https://huggingface.co/spaces/agstyn/ai-traffic-sign-recognition
+
+GitHub:
+https://github.com/agstyn/ai-traffic-sign-recognition
 
 ---
 
