@@ -44,20 +44,6 @@ The system visualizes which regions of the image the CNN focuses on during predi
 
 ---
 
-## 🚀 Run Locally
-
-```bash
-git clone https://github.com/agstyn/ai-traffic-sign-recognition.git
-
-cd ai-traffic-sign-recognition
-
-pip install -r requirements.txt
-
-streamlit run app.py
-````
-
----
-
 ## 📁 Project Structure
 
 ```text
